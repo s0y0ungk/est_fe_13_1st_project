@@ -88,11 +88,6 @@ gantt
     section 최종
     최종 발표                         :e1, 2026-05-12, 1d
 ```
-### 1.5 주요 기능
----
-## 2. 개발 환경 및 배포
-
-### 2.1 개발 스택
 
 #### Frontend
 Framework:None
@@ -113,17 +108,17 @@ Deployment: Git 저장소
 CI/CD: GitHub Actions (테스트 및 배포 자동화)
 Design: Figma
 
-### 2.2 배포 URL
+### 1.4 배포 URL
 - **Production**: https://s0y0ungk.github.io/est_fe_13_1st_project/
 
-### 2.3 개발 컨벤션 가이드
+### 1.5 개발 컨벤션 가이드
 
 프로젝트에서 사용하는 HTML, CSS, JavaScript 작성 규칙은 아래 문서를 참고하세요.
 
 - [HTML 컨벤션](./docs/guide_html.md)
 - [CSS 컨벤션](./docs/guide_css.md)
 
-## 3. 라우팅 구조
+## 2. 라우팅 구조
 | 경로                 | 설명                     | 접근 권한 |
 | ------------------ | ---------------------- | ----- |
 | `/`                | 메인 홈 (랜딩 페이지 / 섹션형 구성) | 전체    |
@@ -142,7 +137,7 @@ Design: Figma
 
 ---
 
-## 5. 프로젝트 구조
+## 3. 프로젝트 구조
 ```
 1ST_PROJECT/
 ├─ CSS/
@@ -158,9 +153,9 @@ Design: Figma
 └─ readme.md
 ```
 
-## 6. 아키텍처
+## 4. 아키텍처
 
-## 7. 향후 개선 사항
+## 5. 향후 개선 사항
 - 모바일 환경에서의 인터랙션 및 UI 디테일 개선
 - 섹션별 애니메이션 및 스크롤 기반 인터랙션 추가
 - CTA(지원 유도) 전환율 개선을 위한 UX 구조 최적화
@@ -170,7 +165,7 @@ Design: Figma
 - SEO 및 Open Graph 설정 강화로 외부 유입 개선
 - 코드 구조 리팩토링 및 컴포넌트 재사용성 향상
 
-## 8. 실행 방법
+## 6. 실행 방법
 ### 1. 클론
 ```
 gh repo clone s0y0ungk/est_fe_13_1st_project
