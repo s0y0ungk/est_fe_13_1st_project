@@ -16,6 +16,34 @@
   </head>
   <body>
     <!-- 김찬희 -->
+    <dialog id="popup" class="popup">
+      <div class="popup-content">
+        <h2>오르미 부트캠프 신청 사이트 리뉴얼 프로젝트</h2>
+        <p>본 사이트는 팀 프로젝트 포트폴리오 사이트입니다.</p>
+
+        <hr />
+
+        <ul class="popup-info">
+          <li>과정명 : 오르미 프론트엔드 13기</li>
+          <li>제작기간 : 2026.04.30 ~ 2026.05.12</li>
+          <li>개발환경 : HTML, CSS</li>
+          <li>
+            소스관리 :
+            <a href="https://github.com/ckck912ck-lang/est_13_1st_project_clone">Github</a>
+          </li>
+        </ul>
+
+        <div class="popup-bottom">
+          <div class="popup-check">
+            <input type="checkbox" id="agree" />
+            <label for="agree">오늘 하루 안 보기</label>
+          </div>
+
+          <button type="button" class="popup-close">닫기</button>
+        </div>
+      </div>
+    </dialog>
+
     <header>
       <div class="container d-flex justify-content-between align-items-center">
         <input type="checkbox" id="menu-toggle" hidden />
@@ -77,6 +105,7 @@
         </div>
       </div>
     </nav>
+
     <main>
       <div class="pop-up" id="pop-up"></div>
       <section class="hero inner-pd">
@@ -762,5 +791,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,3 +1,48 @@
+/* 팝업 - 김찬희 */
+.popup {
+  position: fixed;
+  left: 650px;
+  top: 120px;
+  margin: 0;
+  border: none;
+  padding: 40px;
+  background: var(--background);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  color: var(--text-main);
+}
+.popup a {
+  outline: none;
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+.popup hr {
+  margin: 20px 0;
+}
+.popup h2 {
+  font-weight: bold;
+  color: var(--primary-main);
+}
+.popup-info li > span {
+  font-weight: blod;
+}
+.popup-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  margin-top: 60px;
+}
+.popup-close {
+  background: var(--primary-main);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+#agree {
+  accent-color: var(--primary-main);
+}
+
 /* 헤더 - 김찬희 */
 header {
   position: fixed;
