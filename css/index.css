@@ -772,3 +772,28 @@ footer .container {
 .footer-bottom {
   padding-top: 32px;
 }
+
+/* 팝업 창 */
+.popup {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin: 0;
+  border: none;
+}
+.github-link {
+  all: unset;
+  cursor: pointer;
+  color: inherit;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+.section-divider {
+  border: none;
+  height: 0;
+}
